@@ -1,0 +1,28 @@
+nav{
+    width: 100%;
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo{
+    width: 180px;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 20px;
+    list-style: none;
+}
+.dark-nav{
+    background: #212EA0;
+    transition: 0.5s;
+}
+.menu-icon{
+    display: none;
+}
