@@ -9,7 +9,6 @@ import white_arrow from "../../assets/white-arrow.png"
 const Contact = () => {
     const [result, setResult] = React.useState("");
     const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
-    console.log(`API KEY: ${WEB3FORMS_ACCESS_KEY}`)
 
   const onSubmit = async (event) => {
     event.preventDefault();
